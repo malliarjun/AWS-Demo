@@ -13,9 +13,12 @@ Subnet CIDR Choices
 Instance Name
 Instance Type - Forced to t2.micro
 KeyName (Picked up from account)
+
 Mappings
 
 Regions - Mapped to us-east-1 and ap-south-1
+
+
 Resources
 
 VPC
@@ -24,5 +27,7 @@ Routes and Routing Table for internet traffic
 Two subnets [ Public & Private ]
 Security Group to allow internet traffic
 Webserver running wordpress with local MySQL database
+
+
 Access Wordpress
 Open the public url of the ec2 instance in your browser to access the wordpress site
